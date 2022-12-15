@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: inline;
+}
+
+#navbar {
+    list-style-type: none;
+    text-align: right;
+    background-color: blanchedalmond;
+    padding: 25px;
+    border-bottom: 8px solid black;
+    height: 10px;
+}
+#main{
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(201, 144, 83);
+    min-height: calc(100vh - 250px) ;
+}
+body{
+    position: relative;
+    min-height: 20vh;   
+}
+
+#contact {
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+#contact-btn {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(222, 145, 225);
+    border-radius: 3%;
+}
+
+footer {
+    background-color: palevioletred;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+    width: 100vw;
+}
+
+
